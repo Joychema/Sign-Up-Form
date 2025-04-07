@@ -1,0 +1,62 @@
+body {
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+    font-family: sans-serif; /* Set a default font */
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    height: 100vh; /* Make the container take up the full viewport height */
+  }
+  
+  .form-section {
+    padding: 2rem; /* Add padding for spacing */
+    display: flex; /* Use flexbox for inner layout */
+    flex-direction: column; /* Stack form elements vertically */
+    justify-content: center; /* Center form vertically */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  }
+  
+  .header {
+    text-align: center; /* Center the header text */
+    margin-bottom: 2rem; /* Add space below the header */
+  }
+  
+  .header p {
+    line-height: 1.5; /* Improve line spacing */
+  }
+  
+  .form-section h2 {
+    margin-bottom: 1rem; /* Add space below the heading */
+  }
+  
+  .form-section div {
+    margin-bottom: 1rem; /* Add space between form elements */
+  }
+  
+  .form-section label {
+    display: block; /* Make labels block-level */
+    margin-bottom: 0.5rem; /* Add space below labels */
+  }
+  
+  .form-section input,
+  .form-section button {
+    width: 100%; /* Make inputs and button full-width */
+    padding: 0.5rem; /* Add padding to inputs and button */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 4px; /* Add rounded corners */
+  }
+  
+  .form-section button {
+    background-color: #9e7609; /* Blue button color */
+    color: white; /* White button text */
+    cursor: pointer; /* Change cursor on hover */
+  }
+  
+  /* Image Section */
+  .image-section {
+    background-image: url('../../images/restaurant.jpg'); /* Replace with your image path */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+  }
