@@ -8,50 +8,57 @@
 </head>
 <body>
     <div class="container">
-        <div class="image-section"></div>
-    <form action="#" class="form-section">
-        <div class="header">
-            <p>You know you need something like this in your real life to help you realize your dreams,
-                <br>so why not start by signing up today?
-            </p>
-        </div><br>
-        <div>
-            <h2>Let's do this</h2>
-
-             <p>Fields marked with <span>*</span> are required.</p>
+        <div class="image-header-section">
+            <div class="image-section">
+                <p class="overlay-text">I'm cooooooooooooooooooooooool</p>
+            </div>
+            <div class="header">
+                <p>You know you need something like this in your real life to help you realize your dreams,
+                    <br>so why not start by signing up today?
+                </p>
+            </div>
         </div>
-        <div>
-            <label for="fname">First Name: <span>*</span> </label>
-            <input type="text" id="fname" name="username" required placeholder="First Name">
-        </div>
-        <div>
-            <label for="lname">Last Name: <span>*</span> </label>
-            <input type="text" id="lname" name="username" required placeholder="Last Name">
-        </div>
-        <div>
-            <label for="email">Email Address: <span>*</span></label>
-            <input type="email" id="email" name="useremail" required placeholder="Email Address">
-        </div>
-        <div>
-            <label for="phoneno">Phone Number: <span>*</span></label>
-            <input type="tel" id="phoneno" name="usernumber" required placeholder="Phone Number" 
-            pattern="\\+254\\d{9}" minlength="10" maxlength="15">
-        </div>
-        <div>
-            <label for="password">Password: <span>*</span></label>
-            <input type="password" id="password" name="userpassword" required placeholder="Password">
-        </div>
-        <div>
-            <label for="cpassword">Confirm Password: <span>*</span></label>
-            <input type="password" id="cpassword" name="usercpassword" required placeholder="Confirm Password">
-        </div>
-        <div>
-            <button type="submit"> Sign me up 😃</button>
-        </div>
-
-
-    </form>
+        <form action="#" class="form-section">
+            <div>
+                <!-- <h2>Let's do this</h2> -->
+                <p>Fields marked with <span>*</span> are required.</p>
+            </div>
+            <h2>Let's do this </h2>
+          <div class="form-group">
+            <div class="group1">
+            <div>
+                <label for="fname">First Name: <span>*</span> </label>
+                <input type="text" id="fname" name="username" required placeholder="First Name">
+            </div>
+            <div>
+                <label for="lname">Last Name: <span>*</span> </label>
+                <input type="text" id="lname" name="username" required placeholder="Last Name">
+            </div>
+            <div>
+                <label for="email">Email Address: <span>*</span></label>
+                <input type="email" id="email" name="useremail" required placeholder="Email Address">
+            </div>
+          </div>
+         <div class="group2">
+            <div>
+                <label for="phoneno">Phone Number: <span>*</span></label>
+                <input type="tel" id="phoneno" name="usernumber" required placeholder="Phone Number" 
+                       pattern="\\+254\\d{9}" minlength="10" maxlength="15">
+            </div>
+            <div>
+                <label for="password">Password: <span>*</span></label>
+                <input type="password" id="password" name="userpassword" required placeholder="Password">
+            </div>
+            <div>
+                <label for="cpassword">Confirm Password: <span>*</span></label>
+                <input type="password" id="cpassword" name="usercpassword" required placeholder="Confirm Password">
+            </div>
+         </div>
+          </div>
+            <div>
+                <button type="submit"> Sign me up 😃</button>
+            </div>
+        </form>
     </div>
-    
 </body>
 </html>
